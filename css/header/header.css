@@ -1,0 +1,39 @@
+header a:hover {
+  opacity: 0.8;
+}
+.header-info-bg {
+  background-color: var(--p02);
+}
+.header-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  padding-block: 0.5rem;
+}
+.menu-bg {
+  background-color: var(--p01);
+}
+.menu-logo a {
+  padding: 1rem 1rem 1rem 0rem;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  padding-block: 1rem;
+}
+.menu-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+.menu-link {
+  padding: 1rem;
+}
+.intro {
+  padding: 6rem 2rem;
+}

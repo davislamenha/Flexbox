@@ -1,0 +1,28 @@
+/* ======== GLOBAL ============= */
+@import "./global/global.css";
+
+/* ======== ULTILITARIOS ============= */
+@import "./utilitários/tipografia.css";
+@import "./utilitários/utilitarios.css";
+@import "./utilitários/cores.css";
+
+/* ======== HEADER============= */
+@import "./header/header.css";
+
+/* ======== SOBRE ============= */
+@import "./sobre/sobre.css";
+
+/* ======== PRODUTOS ============= */
+@import "./produtos/produtos.css";
+
+/* ======== PREÇO ============= */
+@import "./preco/preco.css";
+
+/* ======== QUALIDADE ============= */
+@import "./qualidade/qualidade.css";
+
+/* ======== NEWSLETTER ============= */
+@import "./newsletter/newsletter.css";
+
+/* ======== FOOTER ============= */
+@import "./footer/footer.css";

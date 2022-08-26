@@ -1,0 +1,10 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--p02);
+  padding-block: 10rem;
+}
+footer p {
+  text-align: center;
+}

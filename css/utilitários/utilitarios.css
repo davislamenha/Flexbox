@@ -1,0 +1,35 @@
+.container {
+  margin-inline: auto;
+  padding-inline: 2rem;
+  max-width: 96rem;
+}
+.btn {
+  padding: 0.5rem 2rem;
+  border: 2px solid var(--p05);
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: var(--p05);
+  color: var(--branco);
+}
+.btn2 {
+  padding: 1.5rem 4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: var(--p05);
+  color: var(--branco);
+  transition: 0.3s;
+}
+.btn2:hover {
+  background-color: var(--p02);
+}
+
+@media (max-width: 600px) {
+  .btn2 {
+    padding: 0.5rem 2rem;
+  }
+}
